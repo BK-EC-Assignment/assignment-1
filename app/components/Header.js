@@ -39,7 +39,7 @@ var Header = React.createClass({
           <div id="navbar">
             <ul id="navbar-links">
               <li className="selected">
-                <a href="#"> ĐANH ĐẤU GIÁ </a>
+                <a href="#"> ĐANG ĐẤU GIÁ </a>
               </li>
               <li><a href="#"> MỚI KẾT THÚC </a></li>
               <li><a href="#"> KẾT QUẢ </a></li>
