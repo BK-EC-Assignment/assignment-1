@@ -4,6 +4,55 @@
   <meta charset="UTF-8">
   <title>My App</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../app/styles/header.css">
+  <style>
+    .scrolling {
+      height: 50px;
+      overflow: hidden;
+      position: relative;;
+      margin-left: 120px;
+      margin-top: 20px;
+      margin-right: 600px;
+    }
+
+    .scrolling h3 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+      /* Starting position */
+      -moz-transform:translateX(100%);
+      -webkit-transform:translateX(100%);
+      transform:translateX(100%);
+      /* Apply animation to this element */
+      -moz-animation: scrolling 15s linear infinite;
+      -webkit-animation: scrolling 15s linear infinite;
+      animation: scrolling 15s linear infinite;
+    }
+
+    /* Move it (define the animation) */
+    @-moz-keyframes scrolling {
+     0%   { -moz-transform: translateX(100%); }
+     100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes scrolling {
+     0%   { -webkit-transform: translateX(100%); }
+     100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes scrolling {
+     0%   {
+     -moz-transform: translateX(100%); /* Firefox bug fix */
+     -webkit-transform: translateX(100%); /* Firefox bug fix */
+     transform: translateX(100%);
+     }
+     100% {
+     -moz-transform: translateX(-100%); /* Firefox bug fix */
+     -webkit-transform: translateX(-100%); /* Firefox bug fix */
+     transform: translateX(-100%);
+     }
+  </style>
 </head>
 <body>
   <div id="app"></div>
