@@ -1,6 +1,6 @@
 #layout-header {
   margin: 0px auto;
-  height: 150px;;
+  height: 120px;
   width:980px;
   position: relative;
 }
@@ -22,7 +22,7 @@
   position: absolute;
   right:0px;
   top: 0px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: 10px;
   padding: 3px;
   z-index: 999;
@@ -48,7 +48,7 @@
   position: absolute;
   right: 0px;
   top: 0px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 3px;
 }
 
@@ -73,4 +73,38 @@
   width: 2px;
   border: solid 1px #ccc;
   font-size: 10px;
+}
+
+#layout-menu {
+  height: 25px;
+  background-color: #000;
+}
+
+#navbar {
+  margin: 0px auto;
+  height: 25px;
+  line-height: 25px;
+  width: 980px;
+}
+
+#navbar-links {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: left;
+  font-size: 12px;
+}
+
+#navbar-links li {
+  float: left;
+  padding: 0px 12px;
+}
+
+#navbar-links .selected {
+  background-color: #e51c24;
+}
+
+#navbar-links li a {
+  color: #FFF;
+  font-weight: bold;
 }
