@@ -1,4 +1,6 @@
 var React = require('react');
+var ReactRouter = require('react-router');
+var Link = ReactRouter.Link;
 
 var Header = React.createClass({
   render: function () {
@@ -26,11 +28,15 @@ var Header = React.createClass({
           <div id="user-menu-zone">
             <ul id="user-links">
               <li>
-                <a href="#">Login</a>
+                <Link to='/login'>
+                  Login
+                </Link>
               </li>
               <li className="sep">|</li>
               <li>
-                <a href="#">Introduce</a>
+              <Link to='/register'>
+                Register
+              </Link>
               </li>
             </ul>
           </div>
