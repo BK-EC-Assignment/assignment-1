@@ -1,9 +1,12 @@
 var React = require('react');
+var GridProducts = require('./GridProducts');
 
 var Home = React.createClass({
   render: function () {
     return (
-      <div> This is Home page </div>
+      <div className="wrap"> This is Home page
+      	<GridProducts />
+      </div>
     )
   }
 });
