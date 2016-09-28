@@ -1,0 +1,17 @@
+footer {
+	margin-top: 20px;
+	background-color: #262626;
+	line-height: 28px;
+}
+footer h3 {
+	color: lavender;
+}
+footer hr {
+	border-color: lavender;
+}
+footer text {
+	color: lavender;
+	text-align: justify;
+	letter-spacing: 1px;
+
+}

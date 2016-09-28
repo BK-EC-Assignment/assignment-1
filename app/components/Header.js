@@ -5,52 +5,44 @@ var Link = ReactRouter.Link;
 var Header = React.createClass({
   render: function () {
     return (
-      <div id="lauout">
-        <div id="layout-header" className="row">
-          <div id="logo" className="col-md-2">
+      <div className="container-fluid">
+        <div id="wrapper" className="row">
+          <div id="header-container" className="col-md-12 padding">
+          <div id="deco-nav" className="col-md-12"></div>
+           <div id="logo" className="col-md-3">
             <a href="#" title="Home page">
-              <img src="../app/images/logo.png" alt="HCMUT"/>
+              <img id="logo" src="../app/images/logo.png" alt="HCMUT"/>
+
             </a>
           </div>
-
-          <div className="scrolling col-md-6">
-            <h3>ECommerce - HCMUT</h3>
+          <div id="main-search" className="col-md-6">
+            <div className="form-group">
+              <div id="div-search" className="col-md-10">
+                <input type="text" className="form-control" id="search-input" placeholder="Tôi muốn mua ..."/>
+              </div>
+              <div id="div-button" className="col-md-2">
+                <button type="button" className="btn btn-success" id="search-button">Tìm kiếm</button> 
+              </div>
+            </div>  
           </div>
-
-          <div id="search-area">
-            <input
-              className="txtKeyword"
-              type="text"
-              placeholder="Search..." />
-            <button className="btnSearch">Search</button>
+          <div id="side-right" className="col-md-2">
+            <div className="col-md-6 col-sm-6">
+            <Link to="/login">
+            <button type="button" className="btn btn-success" id="login-button">Đăng nhập</button>
+            </Link>
+            </div>
+            <div className="col-md-6 col-sm-6">
+            <button type="button" className="btn btn-success" id="signup-button">Đăng ký</button>
+            </div>
           </div>
-
-          <div id="user-menu-zone">
-            <ul id="user-links">
-              <li>
-                <Link to='/login'>
-                  Login
-                </Link>
-              </li>
-              <li className="sep">|</li>
-              <li>
-              <Link to='/register'>
-                Register
-              </Link>
-              </li>
-            </ul>
           </div>
-        </div>
-        <div id="layout-menu">
-          <div id="navbar">
-            <ul id="navbar-links">
-              <li className="selected">
-                <a href="#"> ĐANG ĐẤU GIÁ </a>
-              </li>
-              <li><a href="#"> MỚI KẾT THÚC </a></li>
-              <li><a href="#"> KẾT QUẢ </a></li>
-              <li><a href="#"> TOP WINNER </a></li>
-            </ul>
+          <div id="navigator" className="col-md-12">
+              <ul id="tabs">
+                <li>
+                  <a href="#">Danh mục</a>
+                </li>
+                <li><a href="#">Đang đấu giá</a></li>
+              </ul>
           </div>
         </div>
       </div>

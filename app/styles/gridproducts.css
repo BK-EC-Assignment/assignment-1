@@ -4,8 +4,15 @@
 .padding-none {
 	padding: 0;
 }
+.grid-header {
+	font-size: 20px;
+	color: #1a1a1a;
+	margin: 40px 0px 20px;
+	border-bottom: solid 1px  #595959;
+}
 .grid-products {
 	font-family: Arial, sans-serif;
+
 }
 .grid-figure:hover {
 	box-shadow: 2px 2px 2px #888888;
@@ -14,6 +21,7 @@
 	line-height: 25px;
 	height: 347px;
 	border: 1px solid #ececec;
+	background: white;
 }
 
 .title {

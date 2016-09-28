@@ -4,7 +4,7 @@ var GridProducts = require('./GridProducts');
 var Home = React.createClass({
   render: function () {
     return (
-      <div className="wrap"> This is Home page
+      <div className="wrap">
       	<GridProducts />
       </div>
     )

@@ -6,6 +6,7 @@ var GridProducts = React.createClass({
 			<div className="container grid-products">
 				<div className="row">
 					<div className="col-md-12 padding-none">
+						<header className="grid-header">SẢN PHẨM</header>
 						<div className="col-md-2 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo01.jpg"/>
@@ -77,55 +78,7 @@ var GridProducts = React.createClass({
 									<figcaption className="due">11 ngày</figcaption> 
 								</div>
 							</figure>
-						</div>
-						<div className="col-md-2 grid-figure"> 
-							<figure>
-								<img src="../app/images/photo06.jpg"/>
-								<figcaption className="title">Bàn nhậu</figcaption>
-								<div className="col-md-8 padding-none">
-									<figcaption className="price">155 000d</figcaption>
-								</div>
-								<div className="col-md-4 padding-none">
-									<figcaption className="due">11 ngày</figcaption> 
-								</div>
-							</figure>
-						</div>
-						<div className="col-md-2 grid-figure"> 
-							<figure>
-								<img src="../app/images/photo06.jpg"/>
-								<figcaption className="title">Bàn nhậu</figcaption>
-								<div className="col-md-8 padding-none">
-									<figcaption className="price">155 000d</figcaption>
-								</div>
-								<div className="col-md-4 padding-none">
-									<figcaption className="due">11 ngày</figcaption> 
-								</div>
-							</figure>
-						</div>
-						<div className="col-md-2 grid-figure"> 
-							<figure>
-								<img src="../app/images/photo06.jpg"/>
-								<figcaption className="title">Bàn nhậu</figcaption>
-								<div className="col-md-8 padding-none">
-									<figcaption className="price">155 000d</figcaption>
-								</div>
-								<div className="col-md-4 padding-none">
-									<figcaption className="due">11 ngày</figcaption> 
-								</div>
-							</figure>
-						</div>
-						<div className="col-md-2 grid-figure"> 
-							<figure>
-								<img src="../app/images/photo06.jpg"/>
-								<figcaption className="title">Bàn nhậu</figcaption>
-								<div className="col-md-8 padding-none">
-									<figcaption className="price">155 000d</figcaption>
-								</div>
-								<div className="col-md-4 padding-none">
-									<figcaption className="due">11 ngày</figcaption> 
-								</div>
-							</figure>
-						</div>
+						</div>			
 					</div>
 				</div>
 			</div>
