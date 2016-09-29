@@ -1,4 +1,6 @@
 var React = require('react');
+var ReactRouter = require('react-router');
+var Link = ReactRouter.Link;
 
 var GridProducts = React.createClass({
 	render: function() {
@@ -8,6 +10,7 @@ var GridProducts = React.createClass({
 					<div className="col-md-12 padding-none">
 						<header className="grid-header">SẢN PHẨM</header>
 						<div className="col-md-2 grid-figure"> 
+							<Link to="/single">
 							<figure>
 								<img src="../app/images/photo01.jpg"/>
 								<figcaption className="title">Đèn ngủ là của mọi người, mọi người ơi</figcaption>
@@ -18,6 +21,7 @@ var GridProducts = React.createClass({
 									<figcaption className="due">11 ngày</figcaption> 
 								</div>
 							</figure>
+							</Link>
 						</div>
 						<div className="col-md-2 grid-figure"> 
 							<figure>

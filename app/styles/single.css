@@ -1,0 +1,187 @@
+#single {
+	margin-top: 20px;
+}
+
+#single-wrap {
+	padding: 0;
+	background: white;
+}
+#main-top {
+	border-bottom: solid 1px #e8e8e8;
+}
+#single-left figure {
+	margin: 0 auto;
+}
+#single-left figure img {
+	width: 100%;
+}
+#single-title {
+	padding: 0;
+	margin-bottom: 20px;
+}
+#single-title label {
+	
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: -1.5px;
+}
+#single-price {
+	padding: 0;
+	color: #fb4e4a;
+	font-size: 26px;
+	font-weight: 500;
+	letter-spacing: -1px;
+
+}
+#single-expected-price {
+	color: #6ECA62;
+	font-size: 12.5px;
+	text-align: right;
+	font-weight: bold;
+}
+#main-middle {
+	padding: 0;
+	border-bottom: solid 1px #e8e8e8;
+}
+#single-step-btn {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#single-step-btn button:not(#btn-bid) {
+	float: left;
+	border-radius: 0;
+	
+	font-size: 18px;
+	text-align: center;
+	width: 45px;
+	background-color: 
+}
+#single-step-btn input {
+	float: left;
+	border-radius: 0;
+	width: 110px;
+	height: 39px;
+	background: #f2f2f2;
+	color: #737373;
+
+}
+#btn-bid {
+	background: #f2f2f2;
+	border-radius: 0;
+	margin-left: 40px;
+	width: 100px;
+	height: 39px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+
+
+}
+#btn-bid:hover {
+	background: #6ECA62;
+	color: white;
+}
+#main-bottom {
+	padding: 0;
+	
+}
+#single-time {
+	margin-top: 10px;
+	
+}
+#single-status {
+	margin-top: 10px;
+}
+#single-time span {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+#single-status span {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+}
+#single-status span a {
+	color: #6ECA62;
+}
+#right-top {
+	padding: 0;
+	text-align: left;
+	line-height: 40px;
+}
+#right-top header {
+	color: #262626;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+#right-top span {
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+#right-middle {
+	padding: 0;
+	margin-top: 20px;
+	border-top: 1px solid #e8e8e8;
+	
+}
+#right-middle header {
+	font-weight: bold;
+	line-height: 25px;
+	margin-top: 10px;
+}
+#right-middle ul {
+	list-style: none;
+	padding-left: 0;
+	line-height: 25px;
+}
+
+#right-middle ul li:last-child {
+	margin-bottom: 10px;
+}
+
+.username {
+	font-weight: bold;
+	font-size: 14px;
+}
+.bidding-price {
+	font-size: 13px;
+	color: #4fbf40;
+	font-weight: bold;
+	float: right;
+}
+#right-middle div {
+	text-align: center;
+
+}
+#right-middle div span a {
+	text-decoration: none;
+	color: #555;
+	font-size: 13px;
+}
+#right-middle div span a:hover {
+	text-decoration: underline;
+	color: #1a1a1a;
+}
+#single-intro {
+	margin-top: 20px;
+	border-top: 1px solid #e8e8e8; 
+}
+#single-intro header {
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+#single-intro label {
+	margin-top: 15px;
+}
+#single-intro ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+
