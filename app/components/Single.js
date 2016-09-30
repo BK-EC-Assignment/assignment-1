@@ -31,9 +31,9 @@ var Single = React.createClass({
 									<label>Bước giá hiện tại: 1000 đ</label>
 								</div>
 								<div id="single-step-btn" className="col-md-12">
-									<button className="btn btn-success">-</button>
+									<button className="btn btn-success"><i className="glyphicon glyphicon-minus"></i></button>
 									<input className="form-control"/>
-									<button className="btn btn-success">+</button>
+									<button className="btn btn-success"><i className="glyphicon glyphicon-plus"></i></button>
 									<button id="btn-bid" className="btn btn-default">ĐẤU GIÁ</button>
 								</div>
 							</div>
@@ -53,10 +53,10 @@ var Single = React.createClass({
 						<div id="single-right" className="col-md-3 ">
 							<div id="right-top" className="col-md-12 "> 
 								<header>ĐẤU GIÁ KẾT THÚC TRONG</header>
-								<span>16:41:30</span>
+								<span><i className="glyphicon glyphicon-time"></i>16:41:30</span>
 							</div>
 							<div id="right-middle" className="col-md-12 "> 
-								<header>LỊCH SỬ ĐẤU GIÁ</header>
+								<header><i className="glyphicon glyphicon-sort-by-attributes-alt"></i>LỊCH SỬ ĐẤU GIÁ</header>
 								<ul>
 									<li>
 										<span className="username">Phạm Trần Trí</span>

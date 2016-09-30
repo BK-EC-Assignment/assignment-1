@@ -12,7 +12,6 @@ var Header = React.createClass({
            <div id="logo" className="col-md-3">
             <a href="#" title="Home page">
               <img id="logo" src="../app/images/logo.png" alt="HCMUT"/>
-
             </a>
           </div>
           <div id="main-search" className="col-md-6">
@@ -21,7 +20,7 @@ var Header = React.createClass({
                 <input type="text" className="form-control" id="search-input" placeholder="Tôi muốn mua ..."/>
               </div>
               <div id="div-button" className="col-md-2">
-                <button type="button" className="btn btn-success" id="search-button">Tìm kiếm</button> 
+                <button type="button" className="btn btn-success" id="search-button"><i className="glyphicon glyphicon-search"></i></button> 
               </div>
             </div>  
           </div>
@@ -36,13 +35,30 @@ var Header = React.createClass({
             </div>
           </div>
           </div>
-          <div id="navigator" className="col-md-12">
+          <div id="navigator" className="col-md-12 padding">
+              <div id="nav-left" className="col-md-3"> 
+                <div className="dropdown">
+                  <button className="dropbtn">Danh mục <i className="glyphicon glyphicon-triangle-bottom"></i></button>
+                  <div className="dropdown-content">
+                    <a href="#">Giải trí, Thể thao, Sở thích</a>
+                    <a href="#">Đồ điện tử</a>
+                    <a href="#">Đồ gia dụng</a>
+                  </div>
+                </div>
+
+              </div>
+              <div className="col-md-6"> 
               <ul id="tabs">
                 <li>
-                  <a href="#">Danh mục</a>
+                  <a href="#">Trang chủ</a>
                 </li>
+                
                 <li><a href="#">Đang đấu giá</a></li>
               </ul>
+              </div>
+              <div className="col-md-3"> 
+                
+              </div>
           </div>
         </div>
       </div>

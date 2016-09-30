@@ -51,10 +51,13 @@
 	float: left;
 	border-radius: 0;
 	
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
-	width: 45px;
-	background-color: 
+	width: 44px;
+	height: 39px;
+	line-height: 30px;
+	background-color:
+
 }
 #single-step-btn input {
 	float: left;
@@ -123,6 +126,10 @@
 	font-weight: bold;
 
 }
+#right-top span i {
+	font-size: 20px;
+	margin-right: 10px;
+}
 #right-middle {
 	padding: 0;
 	margin-top: 20px;
@@ -133,6 +140,10 @@
 	font-weight: bold;
 	line-height: 25px;
 	margin-top: 10px;
+}
+#right-middle header i {
+	font-size: 16px;
+	margin-right: 10px;
 }
 #right-middle ul {
 	list-style: none;

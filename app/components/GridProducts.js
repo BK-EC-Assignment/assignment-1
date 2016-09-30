@@ -8,7 +8,7 @@ var GridProducts = React.createClass({
 			<div className="container grid-products">
 				<div className="row">
 					<div className="col-md-12 padding-none">
-						<header className="grid-header">SẢN PHẨM</header>
+						<header className="grid-header">SẢN PHẨM MỚI</header>
 						<div className="col-md-2 grid-figure"> 
 							<Link to="/single">
 							<figure>

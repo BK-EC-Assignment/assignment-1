@@ -47,7 +47,11 @@
   height: 40px;
   background:  #ff8c1a;
   border-color:  #ff8c1a;
+  width: 60px;
 
+}
+#search-button i {
+  font-size: 18px;
 }
 #search-button:hover {
  background: #e67300; 
@@ -112,4 +116,56 @@
 }
 #tabs li a:focus {
   color: black;
+}
+#nav-left {
+}
+.dropbtn {
+    margin-top: 1px;
+    text-align: center;
+    background-color: white;
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    height: 38px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.dropbtn i {
+  font-size: 11px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    left:0;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    text-align: left;
+}
+
+.dropdown-content a {
+
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border: solid 1px #e8e8e8;
 }
