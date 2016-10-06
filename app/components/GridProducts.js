@@ -9,7 +9,7 @@ var GridProducts = React.createClass({
 				<div className="row">
 					<div className="col-md-12 padding-none">
 						<header className="grid-header">SẢN PHẨM MỚI</header>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<Link to="/single">
 							<figure>
 								<img src="../app/images/photo01.jpg"/>
@@ -23,7 +23,7 @@ var GridProducts = React.createClass({
 							</figure>
 							</Link>
 						</div>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo02.jpg"/>
 								<figcaption className="title">Đèn ngủ là của mọi người, mọi người ơi</figcaption>
@@ -35,7 +35,7 @@ var GridProducts = React.createClass({
 								</div>
 							</figure>
 						</div>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo03.jpg"/>
 								<figcaption className="title">Đèn ngủ là của mọi người, mọi người ơi</figcaption>
@@ -47,7 +47,7 @@ var GridProducts = React.createClass({
 								</div>
 							</figure>
 						</div>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo04.jpg"/>
 								<figcaption className="title">Đèn ngủ là của mọi người, mọi người ơi ới ơi</figcaption>
@@ -59,7 +59,7 @@ var GridProducts = React.createClass({
 								</div>
 							</figure>
 						</div>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo05.jpg"/>
 								<figcaption className="title">Ghế để ngủ, coi phim ma</figcaption>
@@ -71,7 +71,7 @@ var GridProducts = React.createClass({
 								</div>
 							</figure>
 						</div>
-						<div className="col-md-2 grid-figure"> 
+						<div className="col-md-2 col-sm-3 col-xs-6 grid-figure"> 
 							<figure>
 								<img src="../app/images/photo06.jpg"/>
 								<figcaption className="title">Bàn nhậu</figcaption>

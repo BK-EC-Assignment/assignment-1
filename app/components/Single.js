@@ -1,4 +1,6 @@
 var React = require('react');
+var ReactRouter = require('react-router');
+var Link = ReactRouter.Link;
 
 
 var Single = React.createClass({
@@ -6,14 +8,22 @@ var Single = React.createClass({
 		return (
 			<div id = "single" className="container">
 				<div className="row">
+					<div className="col-md-12 col-sm-12 col-xs-12 padding">
+						<ol className="breadcrumb">
+  							<li><Link to="/">Trang chủ</Link></li>
+  							<li><Link to="/">Đồ điện tử</Link></li>
+							<li className="active">Đèn học chống cận cho bé</li>
+
+						</ol>
+					</div>
 					<div id="single-wrap" className="col-md-12">
-						<div id="single-left" className="col-md-3">
+						<div id="single-left" className="col-md-3 col-sm-4 col-xs-12">
 							 <figure>
 							 	<img src="../app/images/photo01.jpg"/> 
 							 </figure>
 
 						</div>
-						<div id="single-main" className="col-md-6">
+						<div id="single-main" className="col-md-6 col-sm-8 col-xs-12">
 							<div id="main-top" className="col-md-12">
 								<div id="single-title" className="col-md-12">
 									<label>Đèn học chống cận cho bé</label>
@@ -50,7 +60,7 @@ var Single = React.createClass({
 							</div>
 
 						</div>
-						<div id="single-right" className="col-md-3 ">
+						<div id="single-right" className="col-md-3 col-sm-12 col-xs-12">
 							<div id="right-top" className="col-md-12 "> 
 								<header>ĐẤU GIÁ KẾT THÚC TRONG</header>
 								<span><i className="glyphicon glyphicon-time"></i>16:41:30</span>
